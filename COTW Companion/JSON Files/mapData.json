@@ -1,0 +1,72 @@
+[
+        {
+            "name": "Layton Lake District",
+            "id": 1,
+            "animalNames": ["Mallard","White-tailed Jackrabbit","Merriam's Turkey","Coyote","Blacktail Deer","Whitetail Deer","Black Bear","Roosevelt Elk","Moose"]
+        },
+        {
+            "name": "Hirschfelden",
+            "id": 2,
+            "animalNames": ["European Rabbit","Ring-Necked Pheasant","Canada Goose","Red Fox","Roe Deer","Fallow Deer","Wild Boar","Red Deer","European Bison"]
+        },
+        {
+            "name": "Medved-Taiga",
+            "id": 3,
+            "animalNames": ["Western Capercaillie","Siberian Musk Deer","Eurasian Lynx","Wild Boar","Gray Wolf","Reindeer","Eurasian Brown Bear","Moose"]
+        },
+        {
+            "name": "Vurhonga Savanna",
+            "id": 4,
+            "animalNames": ["Eurasian Widgeon","Scrub Hare","Side-Striped Jackal","Springbok","Lesser Kudu","Warthog","Blue Wildebeest","Gemsbok","Lion","Cape Buffalo"]
+        },
+        {
+            "name": "Parque Fernando",
+            "id": 5,
+            "animalNames": ["Cinnamon Teal","Blackbuck","Axis Deer","Collared Peccary","Puma","Mule Deer","Red Deer","Water Buffalo"]
+        },
+        {
+            "name": "Yukon Valley",
+            "id": 6,
+            "animalNames": ["Harlequin Duck","Canada Goose","Red Fox","Gray Wolf","Caribou","Grizzly Bear","Moose","Plains Bison"]
+        },
+        {
+            "name": "Cuatro Colinas",
+            "id": 7,
+            "animalNames": ["Ring-Necked Pheasant","European Hare","Roe Deer","Iberian Mouflon","Ronda Ibex","Southeastern Spanish Ibex","Gredos Ibex","Beceite Ibex","Wild Boar","Iberian Wolf","Red Deer"]
+        },
+        {
+            "name": "Silver Ridge Peaks",
+            "id": 8,
+            "animalNames": ["Merriam's Turkey","Pronghorn","Mountain Goat","Bighorn Sheep","Mountain Lion","Mule Deer","Black Bear","Rocky Mountain Elk","Plains Bison"]
+        },
+        {
+            "name": "Te Awaroa",
+            "id": 9,
+            "animalNames": ["Mallard","European Rabbit","Merriam's Turkey","Feral Goat","Chamois","Sika Deer","Fallow Deer","Feral Pig","Red Deer"]
+        },
+        {
+            "name": "Rancho del Arroyo",
+            "id": 10,
+            "animalNames": ["Ring-Necked Pheasant","Rio Grande Turkey","Antelope Jackrabbit","Coyote","Mexican Bobcat","Collared Peccary","Pronghorn","Whitetail Deer","Bighorn Sheep","Mule Deer"]
+        },
+        {
+            "name": "Mississippi Acres",
+            "id": 11,
+            "animalNames": ["Bobwhite Quail","Green Winged Teal","Eastern Cottontail Rabbit","Eastern Wild Turkey","Gray Fox","Common Raccoon","Whitetail Deer","Wild Hog","American Alligator","Black Bear"]
+        },
+        {
+            "name": "Revontuli Coast",
+            "id": 12,
+            "animalNames": ["Eurasian Teal","Hazel Grouse","Rock Ptarmigan","Willow Ptarmigan","Eurasian Widgeon","Tufted Duck","Black Grouse","Goldeneye","Mallard","Tundra Bean Goose","Greylag Goose","Western Capercaillie","Mountain Hare","Canada Goose","Raccoon Dog","Eurasian Lynx","Whitetail Deer","Eurasian Brown Bear","Moose"]
+        },
+        {
+            "name": "New England Mountains",
+            "id": 13,
+            "animalNames": ["Bobwhite Quail","Goldeneye","Mallard","Green Winged Teal","Eastern Cottontail Rabbit","Ring-Necked Pheasant","Eastern Wild Turkey","Gray Fox","Common Raccoon","Red Fox","Coyote","Bobcat","Whitetail Deer","Black Bear","Moose"]
+        },
+        {
+            "name": "Emerald Coast",
+            "id": 14,
+            "animalNames": ["Stubble Quail","Magpie Goose","Red Fox","Hog Deer","Feral Goat","Axis Deer","Eastern Gray Kangaroo","Fallow Deer","Feral Pig","Javan Rusa","Red Deer","Sambar Deer","Saltwater Crocodile","Banteng"]
+        },
+    ]

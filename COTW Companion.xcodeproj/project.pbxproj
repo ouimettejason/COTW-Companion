@@ -9,18 +9,38 @@
 /* Begin PBXBuildFile section */
 		C65D4EB42B05A1E700DD2FF8 /* COTW_CompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4EB32B05A1E700DD2FF8 /* COTW_CompanionApp.swift */; };
 		C65D4EB62B05A1E700DD2FF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4EB52B05A1E700DD2FF8 /* ContentView.swift */; };
-		C65D4EB82B05A1E700DD2FF8 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4EB72B05A1E700DD2FF8 /* Item.swift */; };
 		C65D4EBA2B05A1E900DD2FF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65D4EB92B05A1E900DD2FF8 /* Assets.xcassets */; };
 		C65D4EBD2B05A1E900DD2FF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65D4EBC2B05A1E900DD2FF8 /* Preview Assets.xcassets */; };
+		C65D4EC42B05A24700DD2FF8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4EC32B05A24700DD2FF8 /* Map.swift */; };
+		C65D4EC62B05A25000DD2FF8 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4EC52B05A25000DD2FF8 /* Animal.swift */; };
+		C65D4EC82B05A25A00DD2FF8 /* Trophy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4EC72B05A25A00DD2FF8 /* Trophy.swift */; };
+		C65D4ECA2B05A4B100DD2FF8 /* animalData.json in Resources */ = {isa = PBXBuildFile; fileRef = C65D4EC92B05A4B100DD2FF8 /* animalData.json */; };
+		C65D4ECC2B05A4D600DD2FF8 /* mapData.json in Resources */ = {isa = PBXBuildFile; fileRef = C65D4ECB2B05A4D600DD2FF8 /* mapData.json */; };
+		C65D4ECF2B05ABA000DD2FF8 /* mapListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4ECE2B05ABA000DD2FF8 /* mapListView.swift */; };
+		C65D4ED12B05ABAD00DD2FF8 /* animalsOnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4ED02B05ABAD00DD2FF8 /* animalsOnMapView.swift */; };
+		C65D4ED32B05ABB900DD2FF8 /* animalDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4ED22B05ABB900DD2FF8 /* animalDetailsView.swift */; };
+		C65D4ED52B05ABED00DD2FF8 /* AnimalUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4ED42B05ABED00DD2FF8 /* AnimalUtility.swift */; };
+		C65D4ED72B05B02800DD2FF8 /* trophyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65D4ED62B05B02800DD2FF8 /* trophyListView.swift */; };
+		C65D4EDB2B05BFD600DD2FF8 /* scatter in Resources */ = {isa = PBXBuildFile; fileRef = C65D4EDA2B05BFD600DD2FF8 /* scatter */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C65D4EB02B05A1E700DD2FF8 /* COTW Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COTW Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C65D4EB32B05A1E700DD2FF8 /* COTW_CompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COTW_CompanionApp.swift; sourceTree = "<group>"; };
 		C65D4EB52B05A1E700DD2FF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C65D4EB72B05A1E700DD2FF8 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C65D4EB92B05A1E900DD2FF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C65D4EBC2B05A1E900DD2FF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C65D4EC32B05A24700DD2FF8 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		C65D4EC52B05A25000DD2FF8 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		C65D4EC72B05A25A00DD2FF8 /* Trophy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trophy.swift; sourceTree = "<group>"; };
+		C65D4EC92B05A4B100DD2FF8 /* animalData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = animalData.json; sourceTree = "<group>"; };
+		C65D4ECB2B05A4D600DD2FF8 /* mapData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mapData.json; sourceTree = "<group>"; };
+		C65D4ECE2B05ABA000DD2FF8 /* mapListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapListView.swift; sourceTree = "<group>"; };
+		C65D4ED02B05ABAD00DD2FF8 /* animalsOnMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalsOnMapView.swift; sourceTree = "<group>"; };
+		C65D4ED22B05ABB900DD2FF8 /* animalDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalDetailsView.swift; sourceTree = "<group>"; };
+		C65D4ED42B05ABED00DD2FF8 /* AnimalUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalUtility.swift; sourceTree = "<group>"; };
+		C65D4ED62B05B02800DD2FF8 /* trophyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trophyListView.swift; sourceTree = "<group>"; };
+		C65D4EDA2B05BFD600DD2FF8 /* scatter */ = {isa = PBXFileReference; lastKnownFileType = text; path = scatter; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +73,20 @@
 		C65D4EB22B05A1E700DD2FF8 /* COTW Companion */ = {
 			isa = PBXGroup;
 			children = (
+				C65D4ECD2B05A4FF00DD2FF8 /* JSON Files */,
 				C65D4EB32B05A1E700DD2FF8 /* COTW_CompanionApp.swift */,
 				C65D4EB52B05A1E700DD2FF8 /* ContentView.swift */,
-				C65D4EB72B05A1E700DD2FF8 /* Item.swift */,
+				C65D4ED62B05B02800DD2FF8 /* trophyListView.swift */,
+				C65D4ECE2B05ABA000DD2FF8 /* mapListView.swift */,
+				C65D4ED02B05ABAD00DD2FF8 /* animalsOnMapView.swift */,
+				C65D4ED42B05ABED00DD2FF8 /* AnimalUtility.swift */,
+				C65D4ED22B05ABB900DD2FF8 /* animalDetailsView.swift */,
 				C65D4EB92B05A1E900DD2FF8 /* Assets.xcassets */,
 				C65D4EBB2B05A1E900DD2FF8 /* Preview Content */,
+				C65D4EC32B05A24700DD2FF8 /* Map.swift */,
+				C65D4EC52B05A25000DD2FF8 /* Animal.swift */,
+				C65D4EC72B05A25A00DD2FF8 /* Trophy.swift */,
+				C65D4EDA2B05BFD600DD2FF8 /* scatter */,
 			);
 			path = "COTW Companion";
 			sourceTree = "<group>";
@@ -68,6 +97,15 @@
 				C65D4EBC2B05A1E900DD2FF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C65D4ECD2B05A4FF00DD2FF8 /* JSON Files */ = {
+			isa = PBXGroup;
+			children = (
+				C65D4EC92B05A4B100DD2FF8 /* animalData.json */,
+				C65D4ECB2B05A4D600DD2FF8 /* mapData.json */,
+			);
+			path = "JSON Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +166,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65D4ECC2B05A4D600DD2FF8 /* mapData.json in Resources */,
 				C65D4EBD2B05A1E900DD2FF8 /* Preview Assets.xcassets in Resources */,
+				C65D4EDB2B05BFD600DD2FF8 /* scatter in Resources */,
 				C65D4EBA2B05A1E900DD2FF8 /* Assets.xcassets in Resources */,
+				C65D4ECA2B05A4B100DD2FF8 /* animalData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +181,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65D4ECF2B05ABA000DD2FF8 /* mapListView.swift in Sources */,
 				C65D4EB62B05A1E700DD2FF8 /* ContentView.swift in Sources */,
-				C65D4EB82B05A1E700DD2FF8 /* Item.swift in Sources */,
+				C65D4EC42B05A24700DD2FF8 /* Map.swift in Sources */,
+				C65D4ED12B05ABAD00DD2FF8 /* animalsOnMapView.swift in Sources */,
+				C65D4EC82B05A25A00DD2FF8 /* Trophy.swift in Sources */,
+				C65D4ED52B05ABED00DD2FF8 /* AnimalUtility.swift in Sources */,
 				C65D4EB42B05A1E700DD2FF8 /* COTW_CompanionApp.swift in Sources */,
+				C65D4EC62B05A25000DD2FF8 /* Animal.swift in Sources */,
+				C65D4ED72B05B02800DD2FF8 /* trophyListView.swift in Sources */,
+				C65D4ED32B05ABB900DD2FF8 /* animalDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

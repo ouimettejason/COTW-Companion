@@ -1,0 +1,47 @@
+old AddTrophyView
+
+"
+struct AddTrophySheet: View {
+    @Environment(\.dismiss) private var dismiss
+    @Environment(\.modelContext) var context
+    
+    @State private var mapName: String = ""
+    @State private var animalName: String = ""
+    @State private var furType: String = ""
+    @State private var trophyScore: Float = 0
+    
+    var body: some View {
+        NavigationStack {
+            Form {
+                TextField("Map", text: $mapName)
+                TextField("Animal", text: $animalName)
+                TextField("Fur Type", text: $furType)
+                TextField("Trophy Rating", value: $trophyScore, format: .number)
+                    .keyboardType(.decimalPad)
+            }
+            .navigationTitle("New Trophy")
+            .navigationBarTitleDisplayMode(.large)
+            .toolbar {
+                ToolbarItemGroup(placement: .topBarLeading) {
+                    Button("Cancel") {
+                        dismiss()
+                    }
+                }
+                
+                ToolbarItemGroup(placement: .topBarTrailing) {
+                    Button("Save") {
+                        // Save code here!
+                        let trophy = Trophy(mapName: mapName, animalName: animalName, furType: furType, trophyScore: trophyScore)
+                        context.insert(trophy)
+                        dismiss()
+
+//                        How to explicitly save, not rely on autosave
+//                        try! context.save()
+//                        dismiss()
+                    }
+                }
+            }
+        }
+    }
+}
+"
